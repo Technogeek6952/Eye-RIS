@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AFC983EB1FAD19B600853A76 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC983EA1FAD19B600853A76 /* AppDelegate.swift */; };
+		AFC983ED1FAD19B600853A76 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC983EC1FAD19B600853A76 /* ViewController.swift */; };
+		AFC983F01FAD19B600853A76 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFC983EE1FAD19B600853A76 /* Main.storyboard */; };
+		AFC983F21FAD19B600853A76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFC983F11FAD19B600853A76 /* Assets.xcassets */; };
+		AFC983F51FAD19B600853A76 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFC983F31FAD19B600853A76 /* LaunchScreen.storyboard */; };
+		AFC984001FAD19B600853A76 /* Eye_RISTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC983FF1FAD19B600853A76 /* Eye_RISTests.swift */; };
+		AFC9840B1FAD19B600853A76 /* Eye_RISUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC9840A1FAD19B600853A76 /* Eye_RISUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AFC983FC1FAD19B600853A76 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFC983DF1FAD19B600853A76 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFC983E61FAD19B600853A76;
+			remoteInfo = "Eye-RIS";
+		};
+		AFC984071FAD19B600853A76 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFC983DF1FAD19B600853A76 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFC983E61FAD19B600853A76;
+			remoteInfo = "Eye-RIS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AFC983E71FAD19B600853A76 /* Eye-RIS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Eye-RIS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFC983EA1FAD19B600853A76 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AFC983EC1FAD19B600853A76 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AFC983EF1FAD19B600853A76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AFC983F11FAD19B600853A76 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AFC983F41FAD19B600853A76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AFC983F61FAD19B600853A76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFC983FB1FAD19B600853A76 /* Eye-RISTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Eye-RISTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFC983FF1FAD19B600853A76 /* Eye_RISTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Eye_RISTests.swift; sourceTree = "<group>"; };
+		AFC984011FAD19B600853A76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFC984061FAD19B600853A76 /* Eye-RISUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Eye-RISUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFC9840A1FAD19B600853A76 /* Eye_RISUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Eye_RISUITests.swift; sourceTree = "<group>"; };
+		AFC9840C1FAD19B600853A76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AFC983E41FAD19B600853A76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFC983F81FAD19B600853A76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFC984031FAD19B600853A76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AFC983DE1FAD19B600853A76 = {
+			isa = PBXGroup;
+			children = (
+				AFC983E91FAD19B600853A76 /* Eye-RIS */,
+				AFC983FE1FAD19B600853A76 /* Eye-RISTests */,
+				AFC984091FAD19B600853A76 /* Eye-RISUITests */,
+				AFC983E81FAD19B600853A76 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AFC983E81FAD19B600853A76 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AFC983E71FAD19B600853A76 /* Eye-RIS.app */,
+				AFC983FB1FAD19B600853A76 /* Eye-RISTests.xctest */,
+				AFC984061FAD19B600853A76 /* Eye-RISUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AFC983E91FAD19B600853A76 /* Eye-RIS */ = {
+			isa = PBXGroup;
+			children = (
+				AFC983EA1FAD19B600853A76 /* AppDelegate.swift */,
+				AFC983EC1FAD19B600853A76 /* ViewController.swift */,
+				AFC983EE1FAD19B600853A76 /* Main.storyboard */,
+				AFC983F11FAD19B600853A76 /* Assets.xcassets */,
+				AFC983F31FAD19B600853A76 /* LaunchScreen.storyboard */,
+				AFC983F61FAD19B600853A76 /* Info.plist */,
+			);
+			path = "Eye-RIS";
+			sourceTree = "<group>";
+		};
+		AFC983FE1FAD19B600853A76 /* Eye-RISTests */ = {
+			isa = PBXGroup;
+			children = (
+				AFC983FF1FAD19B600853A76 /* Eye_RISTests.swift */,
+				AFC984011FAD19B600853A76 /* Info.plist */,
+			);
+			path = "Eye-RISTests";
+			sourceTree = "<group>";
+		};
+		AFC984091FAD19B600853A76 /* Eye-RISUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AFC9840A1FAD19B600853A76 /* Eye_RISUITests.swift */,
+				AFC9840C1FAD19B600853A76 /* Info.plist */,
+			);
+			path = "Eye-RISUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AFC983E61FAD19B600853A76 /* Eye-RIS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFC9840F1FAD19B600853A76 /* Build configuration list for PBXNativeTarget "Eye-RIS" */;
+			buildPhases = (
+				AFC983E31FAD19B600853A76 /* Sources */,
+				AFC983E41FAD19B600853A76 /* Frameworks */,
+				AFC983E51FAD19B600853A76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Eye-RIS";
+			productName = "Eye-RIS";
+			productReference = AFC983E71FAD19B600853A76 /* Eye-RIS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AFC983FA1FAD19B600853A76 /* Eye-RISTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFC984121FAD19B600853A76 /* Build configuration list for PBXNativeTarget "Eye-RISTests" */;
+			buildPhases = (
+				AFC983F71FAD19B600853A76 /* Sources */,
+				AFC983F81FAD19B600853A76 /* Frameworks */,
+				AFC983F91FAD19B600853A76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AFC983FD1FAD19B600853A76 /* PBXTargetDependency */,
+			);
+			name = "Eye-RISTests";
+			productName = "Eye-RISTests";
+			productReference = AFC983FB1FAD19B600853A76 /* Eye-RISTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AFC984051FAD19B600853A76 /* Eye-RISUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFC984151FAD19B600853A76 /* Build configuration list for PBXNativeTarget "Eye-RISUITests" */;
+			buildPhases = (
+				AFC984021FAD19B600853A76 /* Sources */,
+				AFC984031FAD19B600853A76 /* Frameworks */,
+				AFC984041FAD19B600853A76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AFC984081FAD19B600853A76 /* PBXTargetDependency */,
+			);
+			name = "Eye-RISUITests";
+			productName = "Eye-RISUITests";
+			productReference = AFC984061FAD19B600853A76 /* Eye-RISUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AFC983DF1FAD19B600853A76 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Tubular Innovations";
+				TargetAttributes = {
+					AFC983E61FAD19B600853A76 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					AFC983FA1FAD19B600853A76 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AFC983E61FAD19B600853A76;
+					};
+					AFC984051FAD19B600853A76 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AFC983E61FAD19B600853A76;
+					};
+				};
+			};
+			buildConfigurationList = AFC983E21FAD19B600853A76 /* Build configuration list for PBXProject "Eye-RIS" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AFC983DE1FAD19B600853A76;
+			productRefGroup = AFC983E81FAD19B600853A76 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AFC983E61FAD19B600853A76 /* Eye-RIS */,
+				AFC983FA1FAD19B600853A76 /* Eye-RISTests */,
+				AFC984051FAD19B600853A76 /* Eye-RISUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AFC983E51FAD19B600853A76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFC983F51FAD19B600853A76 /* LaunchScreen.storyboard in Resources */,
+				AFC983F21FAD19B600853A76 /* Assets.xcassets in Resources */,
+				AFC983F01FAD19B600853A76 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFC983F91FAD19B600853A76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFC984041FAD19B600853A76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AFC983E31FAD19B600853A76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFC983ED1FAD19B600853A76 /* ViewController.swift in Sources */,
+				AFC983EB1FAD19B600853A76 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFC983F71FAD19B600853A76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFC984001FAD19B600853A76 /* Eye_RISTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFC984021FAD19B600853A76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFC9840B1FAD19B600853A76 /* Eye_RISUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AFC983FD1FAD19B600853A76 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AFC983E61FAD19B600853A76 /* Eye-RIS */;
+			targetProxy = AFC983FC1FAD19B600853A76 /* PBXContainerItemProxy */;
+		};
+		AFC984081FAD19B600853A76 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AFC983E61FAD19B600853A76 /* Eye-RIS */;
+			targetProxy = AFC984071FAD19B600853A76 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AFC983EE1FAD19B600853A76 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFC983EF1FAD19B600853A76 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AFC983F31FAD19B600853A76 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFC983F41FAD19B600853A76 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AFC9840D1FAD19B600853A76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AFC9840E1FAD19B600853A76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AFC984101FAD19B600853A76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A78Q5TNA44;
+				INFOPLIST_FILE = "Eye-RIS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tubularinnovations.Eye-RIS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AFC984111FAD19B600853A76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A78Q5TNA44;
+				INFOPLIST_FILE = "Eye-RIS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tubularinnovations.Eye-RIS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AFC984131FAD19B600853A76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A78Q5TNA44;
+				INFOPLIST_FILE = "Eye-RISTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tubularinnovations.Eye-RISTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Eye-RIS.app/Eye-RIS";
+			};
+			name = Debug;
+		};
+		AFC984141FAD19B600853A76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A78Q5TNA44;
+				INFOPLIST_FILE = "Eye-RISTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tubularinnovations.Eye-RISTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Eye-RIS.app/Eye-RIS";
+			};
+			name = Release;
+		};
+		AFC984161FAD19B600853A76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A78Q5TNA44;
+				INFOPLIST_FILE = "Eye-RISUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tubularinnovations.Eye-RISUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Eye-RIS";
+			};
+			name = Debug;
+		};
+		AFC984171FAD19B600853A76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A78Q5TNA44;
+				INFOPLIST_FILE = "Eye-RISUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tubularinnovations.Eye-RISUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Eye-RIS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AFC983E21FAD19B600853A76 /* Build configuration list for PBXProject "Eye-RIS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFC9840D1FAD19B600853A76 /* Debug */,
+				AFC9840E1FAD19B600853A76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFC9840F1FAD19B600853A76 /* Build configuration list for PBXNativeTarget "Eye-RIS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFC984101FAD19B600853A76 /* Debug */,
+				AFC984111FAD19B600853A76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFC984121FAD19B600853A76 /* Build configuration list for PBXNativeTarget "Eye-RISTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFC984131FAD19B600853A76 /* Debug */,
+				AFC984141FAD19B600853A76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFC984151FAD19B600853A76 /* Build configuration list for PBXNativeTarget "Eye-RISUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFC984161FAD19B600853A76 /* Debug */,
+				AFC984171FAD19B600853A76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AFC983DF1FAD19B600853A76 /* Project object */;
+}
