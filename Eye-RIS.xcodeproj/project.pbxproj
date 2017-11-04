@@ -14,6 +14,9 @@
 		AFC983F51FAD19B600853A76 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFC983F31FAD19B600853A76 /* LaunchScreen.storyboard */; };
 		AFC984001FAD19B600853A76 /* Eye_RISTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC983FF1FAD19B600853A76 /* Eye_RISTests.swift */; };
 		AFC9840B1FAD19B600853A76 /* Eye_RISUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC9840A1FAD19B600853A76 /* Eye_RISUITests.swift */; };
+		AFC984191FAD1F8200853A76 /* Driving.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFC984181FAD1F8200853A76 /* Driving.storyboard */; };
+		AFC9841B1FAD377000853A76 /* DrivingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC9841A1FAD377000853A76 /* DrivingViewController.swift */; };
+		AFC9841E1FAD40B100853A76 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFC9841D1FAD40B100853A76 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		AFC984061FAD19B600853A76 /* Eye-RISUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Eye-RISUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFC9840A1FAD19B600853A76 /* Eye_RISUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Eye_RISUITests.swift; sourceTree = "<group>"; };
 		AFC9840C1FAD19B600853A76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFC984181FAD1F8200853A76 /* Driving.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Driving.storyboard; sourceTree = "<group>"; };
+		AFC9841A1FAD377000853A76 /* DrivingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrivingViewController.swift; sourceTree = "<group>"; };
+		AFC9841D1FAD40B100853A76 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AFC9841E1FAD40B100853A76 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +88,7 @@
 				AFC983FE1FAD19B600853A76 /* Eye-RISTests */,
 				AFC984091FAD19B600853A76 /* Eye-RISUITests */,
 				AFC983E81FAD19B600853A76 /* Products */,
+				AFC9841C1FAD40B100853A76 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,6 +108,8 @@
 				AFC983EA1FAD19B600853A76 /* AppDelegate.swift */,
 				AFC983EC1FAD19B600853A76 /* HomeViewController.swift */,
 				AFC983EE1FAD19B600853A76 /* Home.storyboard */,
+				AFC984181FAD1F8200853A76 /* Driving.storyboard */,
+				AFC9841A1FAD377000853A76 /* DrivingViewController.swift */,
 				AFC983F11FAD19B600853A76 /* Assets.xcassets */,
 				AFC983F31FAD19B600853A76 /* LaunchScreen.storyboard */,
 				AFC983F61FAD19B600853A76 /* Info.plist */,
@@ -123,6 +133,14 @@
 				AFC9840C1FAD19B600853A76 /* Info.plist */,
 			);
 			path = "Eye-RISUITests";
+			sourceTree = "<group>";
+		};
+		AFC9841C1FAD40B100853A76 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AFC9841D1FAD40B100853A76 /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -194,6 +212,14 @@
 					AFC983E61FAD19B600853A76 = {
 						CreatedOnToolsVersion = 9.1;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					AFC983FA1FAD19B600853A76 = {
 						CreatedOnToolsVersion = 9.1;
@@ -232,6 +258,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AFC984191FAD1F8200853A76 /* Driving.storyboard in Resources */,
 				AFC983F51FAD19B600853A76 /* LaunchScreen.storyboard in Resources */,
 				AFC983F21FAD19B600853A76 /* Assets.xcassets in Resources */,
 				AFC983F01FAD19B600853A76 /* Home.storyboard in Resources */,
@@ -259,6 +286,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AFC9841B1FAD377000853A76 /* DrivingViewController.swift in Sources */,
 				AFC983ED1FAD19B600853A76 /* HomeViewController.swift in Sources */,
 				AFC983EB1FAD19B600853A76 /* AppDelegate.swift in Sources */,
 			);
@@ -429,11 +457,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A78Q5TNA44;
 				INFOPLIST_FILE = "Eye-RIS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.tubularinnovations.Eye-RIS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -444,11 +473,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A78Q5TNA44;
 				INFOPLIST_FILE = "Eye-RIS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.tubularinnovations.Eye-RIS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
