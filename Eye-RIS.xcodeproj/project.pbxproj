@@ -17,6 +17,7 @@
 		AFC984191FAD1F8200853A76 /* Driving.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFC984181FAD1F8200853A76 /* Driving.storyboard */; };
 		AFC9841B1FAD377000853A76 /* DrivingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC9841A1FAD377000853A76 /* DrivingViewController.swift */; };
 		AFC9841E1FAD40B100853A76 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFC9841D1FAD40B100853A76 /* MapKit.framework */; };
+		AFC984261FAD4CD000853A76 /* Assets in Resources */ = {isa = PBXBuildFile; fileRef = AFC984251FAD4CD000853A76 /* Assets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		AFC984181FAD1F8200853A76 /* Driving.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Driving.storyboard; sourceTree = "<group>"; };
 		AFC9841A1FAD377000853A76 /* DrivingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrivingViewController.swift; sourceTree = "<group>"; };
 		AFC9841D1FAD40B100853A76 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		AFC984251FAD4CD000853A76 /* Assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Assets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 		AFC983E91FAD19B600853A76 /* Eye-RIS */ = {
 			isa = PBXGroup;
 			children = (
+				AFC984251FAD4CD000853A76 /* Assets */,
 				AFC983EA1FAD19B600853A76 /* AppDelegate.swift */,
 				AFC983EC1FAD19B600853A76 /* HomeViewController.swift */,
 				AFC983EE1FAD19B600853A76 /* Home.storyboard */,
@@ -258,6 +261,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AFC984261FAD4CD000853A76 /* Assets in Resources */,
 				AFC984191FAD1F8200853A76 /* Driving.storyboard in Resources */,
 				AFC983F51FAD19B600853A76 /* LaunchScreen.storyboard in Resources */,
 				AFC983F21FAD19B600853A76 /* Assets.xcassets in Resources */,

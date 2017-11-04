@@ -4,7 +4,6 @@
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -43,7 +42,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="wOt-og-HBT"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Stats" id="1l0-PK-7yr"/>
+                    <tabBarItem key="tabBarItem" title="Stats" image="Assets/Icons/StatsTab.png" landscapeImage="Assets/Icons/StatsTab.png" largeContentSizeImage="Assets/Icons/StatsTab.png" id="1l0-PK-7yr"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="F4j-0U-75U" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -130,7 +129,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="kt3-s5-jxC"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Settings" id="GYs-IT-RtR"/>
+                    <tabBarItem key="tabBarItem" title="Settings" image="Assets/Icons/SettingsTab.png" landscapeImage="Assets/Icons/SettingsTab.png" largeContentSizeImage="Assets/Icons/SettingsTab.png" id="GYs-IT-RtR"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Seu-0n-ax3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -156,7 +155,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="Bdh-5l-rGl"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Start Driving" id="jj3-Kj-bze"/>
+                    <tabBarItem key="tabBarItem" title="Start Driving" image="Assets/Icons/CarTab.png" landscapeImage="Assets/Icons/CarTab.png" largeContentSizeImage="Assets/Icons/CarTab.png" id="jj3-Kj-bze"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ec2-zS-yUj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -244,7 +243,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="Ztm-Bf-6XC"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="About" selectedImage="info_small.png" id="vfx-dF-u8X"/>
+                    <tabBarItem key="tabBarItem" title="About" image="Assets/Icons/InfoTab.png" landscapeImage="Assets/Icons/InfoTab.png" largeContentSizeImage="Assets/Icons/InfoTab.png" id="vfx-dF-u8X"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LSN-Bb-NJg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -272,6 +271,9 @@
         </scene>
     </scenes>
     <resources>
-        <image name="info_small.png" width="32" height="32"/>
+        <image name="Assets/Icons/CarTab.png" width="16" height="16"/>
+        <image name="Assets/Icons/InfoTab.png" width="16" height="16"/>
+        <image name="Assets/Icons/SettingsTab.png" width="16" height="16"/>
+        <image name="Assets/Icons/StatsTab.png" width="16" height="16"/>
     </resources>
 </document>
