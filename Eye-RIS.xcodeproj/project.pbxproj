@@ -7,13 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AF8C78C41FB3B35400E8342D /* StatsTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8C78C31FB3B35400E8342D /* StatsTabViewController.swift */; };
+		AF8C78C61FB3B36300E8342D /* SettingsTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8C78C51FB3B36300E8342D /* SettingsTabViewController.swift */; };
+		AF8C78C81FB3B37100E8342D /* AboutTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8C78C71FB3B37100E8342D /* AboutTabViewController.swift */; };
+		AF8C78CA1FB3B37E00E8342D /* StartDrivingTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8C78C91FB3B37E00E8342D /* StartDrivingTabViewController.swift */; };
+		AF8C78CD1FB3B83D00E8342D /* Tab1.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF8C78CB1FB3B83D00E8342D /* Tab1.storyboard */; };
+		AF8C78CF1FB3BC2100E8342D /* AppUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8C78CE1FB3BC2100E8342D /* AppUtility.swift */; };
+		AFC6A1C41FAD5E640071C221 /* StatsTab.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFC6A1C21FAD5E640071C221 /* StatsTab.storyboard */; };
+		AFC6A1C61FAD5E850071C221 /* SettingsTab.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFC6A1C51FAD5E850071C221 /* SettingsTab.storyboard */; };
+		AFC6A1C91FAD5EA50071C221 /* StartDrivingTab.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFC6A1C71FAD5EA50071C221 /* StartDrivingTab.storyboard */; };
+		AFC6A1CB1FAD5ECB0071C221 /* AboutTab.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFC6A1CA1FAD5ECB0071C221 /* AboutTab.storyboard */; };
 		AFC983EB1FAD19B600853A76 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC983EA1FAD19B600853A76 /* AppDelegate.swift */; };
-		AFC983ED1FAD19B600853A76 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC983EC1FAD19B600853A76 /* HomeViewController.swift */; };
-		AFC983F01FAD19B600853A76 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFC983EE1FAD19B600853A76 /* Home.storyboard */; };
+		AFC983ED1FAD19B600853A76 /* TabRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC983EC1FAD19B600853A76 /* TabRootViewController.swift */; };
+		AFC983F01FAD19B600853A76 /* TabRoot.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFC983EE1FAD19B600853A76 /* TabRoot.storyboard */; };
 		AFC983F21FAD19B600853A76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFC983F11FAD19B600853A76 /* Assets.xcassets */; };
 		AFC983F51FAD19B600853A76 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFC983F31FAD19B600853A76 /* LaunchScreen.storyboard */; };
 		AFC984001FAD19B600853A76 /* Eye_RISTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC983FF1FAD19B600853A76 /* Eye_RISTests.swift */; };
 		AFC9840B1FAD19B600853A76 /* Eye_RISUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC9840A1FAD19B600853A76 /* Eye_RISUITests.swift */; };
+		AFC984191FAD1F8200853A76 /* DrivingInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFC984181FAD1F8200853A76 /* DrivingInterface.storyboard */; };
+		AFC9841B1FAD377000853A76 /* DrivingInterfaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC9841A1FAD377000853A76 /* DrivingInterfaceViewController.swift */; };
+		AFC9841E1FAD40B100853A76 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFC9841D1FAD40B100853A76 /* MapKit.framework */; };
+		AFC984261FAD4CD000853A76 /* Assets in Resources */ = {isa = PBXBuildFile; fileRef = AFC984251FAD4CD000853A76 /* Assets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,10 +48,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AF8C78C31FB3B35400E8342D /* StatsTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsTabViewController.swift; sourceTree = "<group>"; };
+		AF8C78C51FB3B36300E8342D /* SettingsTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTabViewController.swift; sourceTree = "<group>"; };
+		AF8C78C71FB3B37100E8342D /* AboutTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutTabViewController.swift; sourceTree = "<group>"; };
+		AF8C78C91FB3B37E00E8342D /* StartDrivingTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartDrivingTabViewController.swift; sourceTree = "<group>"; };
+		AF8C78CC1FB3B83D00E8342D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Eye-RIS/Interface/Base.lproj/Tab1.storyboard"; sourceTree = "<group>"; };
+		AF8C78CE1FB3BC2100E8342D /* AppUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppUtility.swift; sourceTree = "<group>"; };
+		AFC6A1C31FAD5E640071C221 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Eye-RIS/Base.lproj/StatsTab.storyboard"; sourceTree = "<group>"; };
+		AFC6A1C51FAD5E850071C221 /* SettingsTab.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SettingsTab.storyboard; sourceTree = "<group>"; };
+		AFC6A1C81FAD5EA50071C221 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Eye-RIS/Base.lproj/StartDrivingTab.storyboard"; sourceTree = "<group>"; };
+		AFC6A1CA1FAD5ECB0071C221 /* AboutTab.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = AboutTab.storyboard; sourceTree = "<group>"; };
 		AFC983E71FAD19B600853A76 /* Eye-RIS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Eye-RIS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFC983EA1FAD19B600853A76 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AFC983EC1FAD19B600853A76 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
-		AFC983EF1FAD19B600853A76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Home.storyboard; sourceTree = "<group>"; };
+		AFC983EC1FAD19B600853A76 /* TabRootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabRootViewController.swift; sourceTree = "<group>"; };
+		AFC983EF1FAD19B600853A76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/TabRoot.storyboard; sourceTree = "<group>"; };
 		AFC983F11FAD19B600853A76 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AFC983F41FAD19B600853A76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AFC983F61FAD19B600853A76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +71,10 @@
 		AFC984061FAD19B600853A76 /* Eye-RISUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Eye-RISUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFC9840A1FAD19B600853A76 /* Eye_RISUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Eye_RISUITests.swift; sourceTree = "<group>"; };
 		AFC9840C1FAD19B600853A76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFC984181FAD1F8200853A76 /* DrivingInterface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DrivingInterface.storyboard; sourceTree = "<group>"; };
+		AFC9841A1FAD377000853A76 /* DrivingInterfaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrivingInterfaceViewController.swift; sourceTree = "<group>"; };
+		AFC9841D1FAD40B100853A76 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		AFC984251FAD4CD000853A76 /* Assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Assets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AFC9841E1FAD40B100853A76 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,13 +103,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AF547D121FAD63FA00DB8175 /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				AFC983EE1FAD19B600853A76 /* TabRoot.storyboard */,
+				AFC983EC1FAD19B600853A76 /* TabRootViewController.swift */,
+				AFC6A1C71FAD5EA50071C221 /* StartDrivingTab.storyboard */,
+				AF8C78C91FB3B37E00E8342D /* StartDrivingTabViewController.swift */,
+				AFC6A1CA1FAD5ECB0071C221 /* AboutTab.storyboard */,
+				AF8C78C71FB3B37100E8342D /* AboutTabViewController.swift */,
+				AFC6A1C51FAD5E850071C221 /* SettingsTab.storyboard */,
+				AF8C78C51FB3B36300E8342D /* SettingsTabViewController.swift */,
+				AFC6A1C21FAD5E640071C221 /* StatsTab.storyboard */,
+				AF8C78C31FB3B35400E8342D /* StatsTabViewController.swift */,
+				AFC984181FAD1F8200853A76 /* DrivingInterface.storyboard */,
+				AFC9841A1FAD377000853A76 /* DrivingInterfaceViewController.swift */,
+				AFC983F31FAD19B600853A76 /* LaunchScreen.storyboard */,
+			);
+			path = Interface;
+			sourceTree = "<group>";
+		};
 		AFC983DE1FAD19B600853A76 = {
 			isa = PBXGroup;
 			children = (
+				AF8C78CB1FB3B83D00E8342D /* Tab1.storyboard */,
+				AFC983F61FAD19B600853A76 /* Info.plist */,
 				AFC983E91FAD19B600853A76 /* Eye-RIS */,
 				AFC983FE1FAD19B600853A76 /* Eye-RISTests */,
 				AFC984091FAD19B600853A76 /* Eye-RISUITests */,
 				AFC983E81FAD19B600853A76 /* Products */,
+				AFC9841C1FAD40B100853A76 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +149,11 @@
 		AFC983E91FAD19B600853A76 /* Eye-RIS */ = {
 			isa = PBXGroup;
 			children = (
+				AFC984251FAD4CD000853A76 /* Assets */,
 				AFC983EA1FAD19B600853A76 /* AppDelegate.swift */,
-				AFC983EC1FAD19B600853A76 /* HomeViewController.swift */,
-				AFC983EE1FAD19B600853A76 /* Home.storyboard */,
+				AF8C78CE1FB3BC2100E8342D /* AppUtility.swift */,
+				AF547D121FAD63FA00DB8175 /* Interface */,
 				AFC983F11FAD19B600853A76 /* Assets.xcassets */,
-				AFC983F31FAD19B600853A76 /* LaunchScreen.storyboard */,
-				AFC983F61FAD19B600853A76 /* Info.plist */,
 			);
 			path = "Eye-RIS";
 			sourceTree = "<group>";
@@ -123,6 +174,14 @@
 				AFC9840C1FAD19B600853A76 /* Info.plist */,
 			);
 			path = "Eye-RISUITests";
+			sourceTree = "<group>";
+		};
+		AFC9841C1FAD40B100853A76 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AFC9841D1FAD40B100853A76 /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -194,6 +253,14 @@
 					AFC983E61FAD19B600853A76 = {
 						CreatedOnToolsVersion = 9.1;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					AFC983FA1FAD19B600853A76 = {
 						CreatedOnToolsVersion = 9.1;
@@ -232,9 +299,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF8C78CD1FB3B83D00E8342D /* Tab1.storyboard in Resources */,
+				AFC984261FAD4CD000853A76 /* Assets in Resources */,
+				AFC6A1C91FAD5EA50071C221 /* StartDrivingTab.storyboard in Resources */,
+				AFC984191FAD1F8200853A76 /* DrivingInterface.storyboard in Resources */,
+				AFC6A1C41FAD5E640071C221 /* StatsTab.storyboard in Resources */,
 				AFC983F51FAD19B600853A76 /* LaunchScreen.storyboard in Resources */,
+				AFC6A1C61FAD5E850071C221 /* SettingsTab.storyboard in Resources */,
+				AFC6A1CB1FAD5ECB0071C221 /* AboutTab.storyboard in Resources */,
 				AFC983F21FAD19B600853A76 /* Assets.xcassets in Resources */,
-				AFC983F01FAD19B600853A76 /* Home.storyboard in Resources */,
+				AFC983F01FAD19B600853A76 /* TabRoot.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,7 +333,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AFC983ED1FAD19B600853A76 /* HomeViewController.swift in Sources */,
+				AF8C78CF1FB3BC2100E8342D /* AppUtility.swift in Sources */,
+				AF8C78CA1FB3B37E00E8342D /* StartDrivingTabViewController.swift in Sources */,
+				AF8C78C81FB3B37100E8342D /* AboutTabViewController.swift in Sources */,
+				AF8C78C41FB3B35400E8342D /* StatsTabViewController.swift in Sources */,
+				AFC9841B1FAD377000853A76 /* DrivingInterfaceViewController.swift in Sources */,
+				AF8C78C61FB3B36300E8342D /* SettingsTabViewController.swift in Sources */,
+				AFC983ED1FAD19B600853A76 /* TabRootViewController.swift in Sources */,
 				AFC983EB1FAD19B600853A76 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -296,12 +376,36 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		AFC983EE1FAD19B600853A76 /* Home.storyboard */ = {
+		AF8C78CB1FB3B83D00E8342D /* Tab1.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF8C78CC1FB3B83D00E8342D /* Base */,
+			);
+			name = Tab1.storyboard;
+			sourceTree = "<group>";
+		};
+		AFC6A1C21FAD5E640071C221 /* StatsTab.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFC6A1C31FAD5E640071C221 /* Base */,
+			);
+			name = StatsTab.storyboard;
+			sourceTree = "<group>";
+		};
+		AFC6A1C71FAD5EA50071C221 /* StartDrivingTab.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFC6A1C81FAD5EA50071C221 /* Base */,
+			);
+			name = StartDrivingTab.storyboard;
+			sourceTree = "<group>";
+		};
+		AFC983EE1FAD19B600853A76 /* TabRoot.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				AFC983EF1FAD19B600853A76 /* Base */,
 			);
-			name = Home.storyboard;
+			name = TabRoot.storyboard;
 			sourceTree = "<group>";
 		};
 		AFC983F31FAD19B600853A76 /* LaunchScreen.storyboard */ = {
@@ -428,12 +532,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A78Q5TNA44;
-				INFOPLIST_FILE = "Eye-RIS/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.tubularinnovations.Eye-RIS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -443,12 +548,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A78Q5TNA44;
-				INFOPLIST_FILE = "Eye-RIS/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.tubularinnovations.Eye-RIS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
