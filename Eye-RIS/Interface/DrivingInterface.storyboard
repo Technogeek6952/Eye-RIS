@@ -69,6 +69,7 @@
                         <viewLayoutGuide key="safeArea" id="Eoh-nA-ggo"/>
                     </view>
                     <connections>
+                        <outlet property="drivingTimeLabel" destination="dSV-8g-6hy" id="cts-cw-yCT"/>
                         <segue destination="ceB-S7-g6B" kind="unwind" identifier="unwindSegueToMainView" unwindAction="unwindToStartDrivingTabWithSegue:" id="bbE-6a-PNq"/>
                     </connections>
                 </viewController>
