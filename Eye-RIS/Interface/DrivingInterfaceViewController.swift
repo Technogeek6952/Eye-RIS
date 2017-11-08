@@ -21,5 +21,20 @@ class DrivingInterfaceViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    // Before the view appears, lock the orientation to landscape
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        // Lock orientation to portrait
+        AppUtility.lockOrientation(.landscape, andRotateTo: .landscapeLeft)
+    }
+    
+    // Before the view disappears, allow all orientations
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+        
+        // Don't forget to reset when view is being removed
+        AppUtility.lockOrientation(.all)
+    }
     
 }
