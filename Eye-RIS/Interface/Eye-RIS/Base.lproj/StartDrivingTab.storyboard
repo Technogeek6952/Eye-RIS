@@ -22,7 +22,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Start Driving"/>
                                 <connections>
-                                    <segue destination="YRe-0Y-PTW" kind="show" id="GmT-KL-Po5"/>
+                                    <segue destination="YRe-0Y-PTW" kind="show" id="L0Q-JE-sGq"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -39,7 +39,9 @@
         <!--DrivingInterface-->
         <scene sceneID="ajw-3y-yrA">
             <objects>
-                <viewControllerPlaceholder storyboardName="DrivingInterface" id="YRe-0Y-PTW" sceneMemberID="viewController"/>
+                <viewControllerPlaceholder storyboardName="DrivingInterface" id="YRe-0Y-PTW" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="XTR-YT-bbq"/>
+                </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8Co-O3-apn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="808" y="-414"/>

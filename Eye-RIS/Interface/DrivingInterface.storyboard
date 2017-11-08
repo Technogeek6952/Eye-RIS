@@ -36,7 +36,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="End Drive"/>
                                 <connections>
-                                    <segue destination="GWz-Ns-QGM" kind="show" id="10n-yb-Gkt"/>
+                                    <action selector="endDriveButtonPressed:" destination="7Xk-Py-kvp" eventType="touchUpInside" id="LfW-CS-oDs"/>
                                 </connections>
                             </button>
                             <view contentMode="scaleToFill" semanticContentAttribute="playback" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="M35-zw-txy">
@@ -68,18 +68,14 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="Eoh-nA-ggo"/>
                     </view>
+                    <connections>
+                        <segue destination="ceB-S7-g6B" kind="unwind" identifier="unwindSegueToMainView" unwindAction="unwindToStartDrivingTabWithSegue:" id="bbE-6a-PNq"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="to9-hm-bIo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="ceB-S7-g6B" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="77.445652173913047" y="128.98550724637681"/>
-        </scene>
-        <!--TabRoot-->
-        <scene sceneID="W5J-Uc-em0">
-            <objects>
-                <viewControllerPlaceholder storyboardName="TabRoot" id="GWz-Ns-QGM" sceneMemberID="viewController"/>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="6nj-Vz-FhZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="135" y="606"/>
         </scene>
     </scenes>
 </document>

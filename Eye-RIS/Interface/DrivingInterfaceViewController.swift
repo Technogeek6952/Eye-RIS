@@ -37,4 +37,7 @@ class DrivingInterfaceViewController: UIViewController {
         AppUtility.lockOrientation(.all)
     }
     
+    @IBAction func endDriveButtonPressed(_ sender: Any) {
+        performSegue(withIdentifier: "unwindSegueToMainView", sender: sender)
+    }
 }
