@@ -1,15 +1,15 @@
 //
-//  DrivingViewController.swift
+//  AboutTabViewController.swift
 //  Eye-RIS
 //
-//  Created by Bowers on 11/3/17.
+//  Created by Bowers on 11/8/17.
 //  Copyright © 2017 Tubular Innovations. All rights reserved.
 //
 
 import Foundation
 import UIKit
 
-class DrivingViewController: UIViewController {
+class AboutTabViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
