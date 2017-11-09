@@ -11,6 +11,9 @@ import UIKit
 
 class StatsTabViewController: UIViewController {
     
+    @IBOutlet weak var timesDrivenLabel: UILabel!
+    @IBOutlet weak var averageScoreLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -27,6 +30,12 @@ class StatsTabViewController: UIViewController {
         
         // Lock orientation to portrait
         AppUtility.lockOrientation(.portrait, andRotateTo: .portrait)
+        
+        // Update statistics
+        if let stats = (UIApplication.shared.delegate as? AppDelegate)?.drivingStatistics {
+            timesDrivenLabel.text = String(format: "Times Driven: %d", stats.drives)
+            averageScoreLabel.text = String(format: "Average Safe Driving Score: %d", stats.averageScore)
+        }
     }
     
     // Before the view disappears, allow all orientations

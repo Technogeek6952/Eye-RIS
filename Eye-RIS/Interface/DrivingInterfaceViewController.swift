@@ -8,17 +8,25 @@
 
 import Foundation
 import UIKit
+import AVFoundation
 
 class DrivingInterfaceViewController: UIViewController {
     
     // Timer used to update the view every second
     var timer = Timer()
-    
     // The unix timestamp for when the view was loaded
     var startTime: Int = 0
     
-    // Label to show how long we have been driving
+    // Driving score stuff
+    let drivingScore: Int = 100
+    
+    // Variables for camera functionality
+    var captureSession: AVCaptureSession?
+    var videoPreviewLayer: AVCaptureVideoPreviewLayer?
+    
+    // Outlets
     @IBOutlet weak var drivingTimeLabel: UILabel!
+    @IBOutlet weak var cameraView: UIView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -29,6 +37,27 @@ class DrivingInterfaceViewController: UIViewController {
         
         // update the view every second
         timer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(self.updateView), userInfo: nil, repeats: true)
+        
+        // Set up camera
+        if let captureDevice = AVCaptureDevice.DiscoverySession(deviceTypes: [AVCaptureDevice.DeviceType.builtInWideAngleCamera], mediaType: AVMediaType.video, position: AVCaptureDevice.Position.front).devices.first{
+            // captureDevice = front camera
+            do {
+                let input = try AVCaptureDeviceInput(device: captureDevice)
+                
+                captureSession = AVCaptureSession()
+                captureSession?.addInput(input)
+                
+                videoPreviewLayer = AVCaptureVideoPreviewLayer(session: captureSession!)
+                videoPreviewLayer?.frame = cameraView.layer.bounds
+                videoPreviewLayer?.connection?.videoOrientation = AVCaptureVideoOrientation.landscapeLeft
+                videoPreviewLayer?.videoGravity = AVLayerVideoGravity.resizeAspectFill
+                cameraView.layer.addSublayer(videoPreviewLayer!)
+                
+                captureSession?.startRunning()
+            } catch {
+                print(error)
+            }
+        }
     }
     
     // Called once a second to update the view
@@ -61,12 +90,12 @@ class DrivingInterfaceViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    // Before the view appears, lock the orientation to landscape
+    // Before the view appears, lock the orientation to landscape left
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         
-        // Lock orientation to portrait
-        AppUtility.lockOrientation(.landscape, andRotateTo: .landscapeLeft)
+        // Lock orientation to landscape left
+        AppUtility.lockOrientation(.landscapeLeft, andRotateTo: .landscapeLeft)
     }
     
     // Before the view disappears, allow all orientations
@@ -78,6 +107,15 @@ class DrivingInterfaceViewController: UIViewController {
     }
     
     @IBAction func endDriveButtonPressed(_ sender: Any) {
-        performSegue(withIdentifier: "unwindSegueToMainView", sender: sender)
+        // Add statistics
+        
+        if let stats = (UIApplication.shared.delegate as? AppDelegate)?.drivingStatistics {
+            let newAverage = ((stats.averageScore * stats.drives) + drivingScore) / (stats.drives + 1)
+            stats.averageScore = newAverage
+            stats.drives += 1
+        }
+        
+        // go back to the main view
+        performSegue(withIdentifier: "unwindSegueToTabRoot", sender: sender)
     }
 }

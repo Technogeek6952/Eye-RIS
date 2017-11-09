@@ -35,6 +35,9 @@ class TabRootViewController: UITabBarController {
         // Don't forget to reset when view is being removed
         AppUtility.lockOrientation(.all)
     }
+    
+    // Used for unwind segue for end drive button
+    @IBAction func unwindToTabRoot(segue:UIStoryboardSegue) { }
 
 }
 

@@ -37,7 +37,4 @@ class StartDrivingTabViewController: UIViewController {
         AppUtility.lockOrientation(.all)
     }
     
-    // Used for unwind segue for end drive button
-    @IBAction func unwindToStartDrivingTab(segue:UIStoryboardSegue) { }
-    
 }

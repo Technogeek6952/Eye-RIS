@@ -12,6 +12,7 @@
 		AF8C78C81FB3B37100E8342D /* AboutTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8C78C71FB3B37100E8342D /* AboutTabViewController.swift */; };
 		AF8C78CA1FB3B37E00E8342D /* StartDrivingTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8C78C91FB3B37E00E8342D /* StartDrivingTabViewController.swift */; };
 		AF8C78CF1FB3BC2100E8342D /* AppUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8C78CE1FB3BC2100E8342D /* AppUtility.swift */; };
+		AF8C78D11FB3D6F200E8342D /* DrivingStatistics.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8C78D01FB3D6F200E8342D /* DrivingStatistics.swift */; };
 		AFC6A1C41FAD5E640071C221 /* StatsTab.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFC6A1C21FAD5E640071C221 /* StatsTab.storyboard */; };
 		AFC6A1C61FAD5E850071C221 /* SettingsTab.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFC6A1C51FAD5E850071C221 /* SettingsTab.storyboard */; };
 		AFC6A1C91FAD5EA50071C221 /* StartDrivingTab.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFC6A1C71FAD5EA50071C221 /* StartDrivingTab.storyboard */; };
@@ -52,6 +53,7 @@
 		AF8C78C71FB3B37100E8342D /* AboutTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutTabViewController.swift; sourceTree = "<group>"; };
 		AF8C78C91FB3B37E00E8342D /* StartDrivingTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartDrivingTabViewController.swift; sourceTree = "<group>"; };
 		AF8C78CE1FB3BC2100E8342D /* AppUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppUtility.swift; sourceTree = "<group>"; };
+		AF8C78D01FB3D6F200E8342D /* DrivingStatistics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrivingStatistics.swift; sourceTree = "<group>"; };
 		AFC6A1C31FAD5E640071C221 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Eye-RIS/Base.lproj/StatsTab.storyboard"; sourceTree = "<group>"; };
 		AFC6A1C51FAD5E850071C221 /* SettingsTab.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SettingsTab.storyboard; sourceTree = "<group>"; };
 		AFC6A1C81FAD5EA50071C221 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Eye-RIS/Base.lproj/StartDrivingTab.storyboard"; sourceTree = "<group>"; };
@@ -148,6 +150,7 @@
 			children = (
 				AFC984251FAD4CD000853A76 /* Assets */,
 				AFC983EA1FAD19B600853A76 /* AppDelegate.swift */,
+				AF8C78D01FB3D6F200E8342D /* DrivingStatistics.swift */,
 				AF8C78CE1FB3BC2100E8342D /* AppUtility.swift */,
 				AF547D121FAD63FA00DB8175 /* Interface */,
 				AFC983F11FAD19B600853A76 /* Assets.xcassets */,
@@ -330,6 +333,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF8C78CF1FB3BC2100E8342D /* AppUtility.swift in Sources */,
+				AF8C78D11FB3D6F200E8342D /* DrivingStatistics.swift in Sources */,
 				AF8C78CA1FB3B37E00E8342D /* StartDrivingTabViewController.swift in Sources */,
 				AF8C78C81FB3B37100E8342D /* AboutTabViewController.swift in Sources */,
 				AF8C78C41FB3B35400E8342D /* StatsTabViewController.swift in Sources */,
